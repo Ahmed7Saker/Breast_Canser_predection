@@ -62,14 +62,14 @@ Models Trained:
 *Note: Metrics may vary slightly depending on random seed and preprocessing.*
 
 
-![alt text](plots/image.png)
-
 
 ---
 
 ## 🧠 Neural Network Architecture
+![alt text](plots/image.png)
 
-![alt text](image.png)
+
+
 
 
 
