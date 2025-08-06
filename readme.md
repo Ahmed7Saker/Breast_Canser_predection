@@ -1,0 +1,102 @@
+# 🧠 Breast Cancer Prediction with Machine Learning
+
+<div align="center">
+  <img src="data:image/jpeg;base64,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" width="450" alt="Breast Cancer Awareness Logo">
+</div>
+
+---
+
+## 📌 Project Overview
+
+This project applies various machine learning models to predict the likelihood of breast cancer based on features extracted from digitized images of fine needle aspirate (FNA) of breast mass.
+
+Models Trained:
+
+- ✅ Logistic Regression
+- ✅ Decision Tree
+- ✅ Random Forest
+- ✅ XGBoost
+- ✅ Support Vector Machine (SVM)
+- ✅ Neural Network (Keras)
+
+---
+
+## 🧬 Dataset Information
+
+- **Source:** [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/Breast+Cancer+Wisconsin+(Diagnostic))
+- **Records:** 569
+- **Features:** 30 numeric input features + 1 binary output (Diagnosis: Malignant/Benign)
+
+---
+
+## 📊 Exploratory Data Analysis (EDA)
+
+- Checked for missing/null values ✅  
+- Visualized distributions (histograms, boxplots, pairplots) ✅  
+- Analyzed class balance ✅  
+- Feature correlation heatmap ✅
+
+---
+
+## 🛠️ Preprocessing Steps
+
+- Label Encoding for Diagnosis Column  
+- Standardization (Z-score normalization)  
+- Train-Test Split (80-20)  
+- Added Regularization and Dropout in Neural Network  
+
+---
+
+## 🤖 Models Used & Performance
+
+| Model              | Accuracy (%) | F1 Score | AUC Score |
+|--------------------|--------------|----------|-----------|
+| Logistic Regression| 97.2         | 0.97     | 0.98      |
+| Decision Tree      | 93.0         | 0.93     | 0.92      |
+| Random Forest      | 97.9         | 0.98     | 0.99      |
+| XGBoost            | 98.2         | 0.98     | 0.99      |
+| SVM (RBF Kernel)   | 96.5         | 0.96     | 0.97      |
+| Neural Network     | 98.0         | 0.98     | 0.99      |
+
+*Note: Metrics may vary slightly depending on random seed and preprocessing.*
+
+
+![alt text](plots/image.png)
+
+
+---
+
+## 🧠 Neural Network Architecture
+
+![alt text](image.png)
+
+
+
+
+- 2 Hidden Layers (ReLU, 32 + 16 units)
+- Dropout Regularization (0.3)
+- Binary Output (Sigmoid)
+- Optimizer: Adam
+
+---
+
+## 📈 Visualizations
+
+- Confusion Matrices  
+- ROC Curves  
+- Feature Importances (Tree Models)
+
+---
+
+## 🚀 How to Run
+
+```bash
+# Clone the repository
+git clone https://github.com/your-username/breast-cancer-prediction.git
+cd breast-cancer-prediction
+
+# Install required packages
+pip install -r requirements.txt
+
+# Run the notebook
+jupyter notebook breat-canser_predection.ipynb
