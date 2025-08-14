@@ -15,7 +15,7 @@
 <p align="center"><strong>Leveraging Machine Learning to Save Lives Through Early Detection</strong></p>
 
 <p align="center">
-  ⭐ <strong>98.2% Accuracy</strong> • 📊 <strong>6 ML Models</strong> • 🧠 <strong>Deep Learning Powered</strong>
+  ⭐ <strong>98.2% Accuracy</strong> • 📊 <strong>7 ML Models</strong> • 🧠 <strong>Deep Learning Powered</strong>
 </p>
 
 ---
@@ -35,20 +35,17 @@ This cutting-edge machine learning system analyzes digitized images from fine ne
 
 ## 🔬 Technical Arsenal
 
+| Algorithm                  | Type           |   Accuracy | Performance |
+| -------------------------- | -------------- | ---------: | ----------- |
+| 🧠 **Neural Network**      | Deep Learning  | **98.25%** | 🟢 Champion |
+| ⚖️ **SVM (RBF)**           | Kernel         | **98.25%** | 🟢 Champion |
+| 📈 **Logistic Regression** | Linear         | **97.37%** | 🟢 Strong   |
+| 👥 **K-Nearest Neighbors** | Instance-based | **96.49%** | 🟢 Strong   |
+| 🎯 **XGBoost**             | Ensemble       | **95.61%** | 🟡 Solid    |
+| 🌳 **Random Forest**       | Ensemble       | **95.61%** | 🟡 Solid    |
+| 🌲 **Decision Tree**       | Tree           | **95.61%** | 🟡 Baseline |
+| 📊 **Naive Bayes**         | Probabilistic  | **93.86%** | 🟠 Moderate |
 
-
-| Algorithm                  | Type          |  Accuracy | Performance  |
-| -------------------------- | ------------- | --------: | ------------ |
-| 🎯 **XGBoost**             | Ensemble      | **98.2%** | 🟢 Champion  |
-| 🧠 **Neural Network**      | Deep Learning | **98.0%** | 🟢 Excellent |
-| 🌳 **Random Forest**       | Ensemble      | **97.9%** | 🟢 Excellent |
-| 📈 **Logistic Regression** | Linear        | **97.2%** | 🟢 Strong    |
-| ⚖️ **SVM (RBF)**           | Kernel        | **96.5%** | 🟡 Good      |
-| 🌲 **Decision Tree**       | Tree          | **93.0%** | 🟡 Baseline  |
-
-
-
----
 
 ## 📊 Dataset Insights
 
